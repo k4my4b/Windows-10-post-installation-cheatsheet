@@ -1,10 +1,10 @@
 # Windows-10-post-installation-cheatsheet
-
+```
 useplatformclock        No
 useplatformtick         Yes
 disabledynamictick      Yes
-
-
+```
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Microsoft\GameBar] 
@@ -28,3 +28,4 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR] 
 "AppCaptureEnabled"=dword:00000000
+```
