@@ -1,6 +1,6 @@
 # Windows-10-post-installation-cheatsheet
 ```
-useplatformclock        No
+useplatformclock        Yes #must disable HPET
 useplatformtick         Yes
 disabledynamictick      Yes
 ```
