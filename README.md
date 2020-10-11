@@ -9,6 +9,7 @@ disabledynamictick      Yes
 groupsize               8 # (number of cores)
 groupaware              Yes
 ```
+## Disable GameDVR
 ```
 Windows Registry Editor Version 5.00
 
