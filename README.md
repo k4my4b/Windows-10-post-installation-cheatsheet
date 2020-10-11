@@ -1,9 +1,13 @@
 # Windows-10-post-installation-cheatsheet
+
+## BCDEdit Command-Line Options
 * enable HPET in UEFI/BIOS
 ```
 useplatformclock        NO 
 useplatformtick         Yes
 disabledynamictick      Yes
+groupsize               8 # (number of cores)
+groupaware              Yes
 ```
 ```
 Windows Registry Editor Version 5.00
