@@ -1,6 +1,7 @@
 # Windows-10-post-installation-cheatsheet
+* enable HPET in UEFI/BIOS
 ```
-useplatformclock        Yes #must disable HPET
+useplatformclock        NO 
 useplatformtick         Yes
 disabledynamictick      Yes
 ```
